@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0"
+            targetNamespace="http://www.user.com/"
+            xmlns="http://www.user.com/"
+            elementFormDefault="qualified">
+
+    <xsd:element name="Users">
+        <xsd:complexType>
+            <xsd:sequence maxOccurs="unbounded">
+                <xsd:element ref="User"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="User">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="ID" id="ID"/>
+                <xsd:element name="nick" type="xsd:string"/>
+                <xsd:element ref="Role"/>
+                <xsd:element ref="Status"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:simpleType name="titleEnumRole">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="ADMIN"/>
+            <xsd:enumeration value="USER"/>
+            <xsd:enumeration value="SYSTEM"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="descriptionEnumRole">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="Administrator role"/>
+            <xsd:enumeration value="User role"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:element name="Role">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="title" type="titleEnumRole"/>
+                <xsd:element name="description" type="descriptionEnumRole"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="Status">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="title">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="ONLINE"/>
+                            <xsd:enumeration value="OFFLINE"/>
+                            <xsd:enumeration value="KICKED"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>

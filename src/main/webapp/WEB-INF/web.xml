@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+  <welcome-file-list>
+    <welcome-file>/WEB-INF/pages/login.jsp</welcome-file>
+  </welcome-file-list>
+
+  <session-config>
+    <session-timeout>1</session-timeout>
+  </session-config>
+
+  <filter>
+    <filter-name>ChatFilter</filter-name>
+    <filter-class>com.epam.chat.filters.ChatFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>ChatFilter</filter-name>
+    <servlet-name>FrontController</servlet-name>
+  </filter-mapping>
+
+  <servlet>
+    <servlet-name>FrontController</servlet-name>
+    <servlet-class>com.epam.chat.servlets.FrontController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FrontController</servlet-name>
+    <url-pattern>/chat</url-pattern>
+  </servlet-mapping>
+
+  <listener>
+    <listener-class>com.epam.chat.listeners.ContextLoaderListener</listener-class>
+  </listener>
+  <listener>
+    <listener-class>com.epam.chat.listeners.SessionListener</listener-class>
+  </listener>
+
+  <error-page>
+    <error-code>404</error-code>
+    <location>/WEB-INF/pages/error.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>500</error-code>
+    <location>/WEB-INF/pages/error.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>413</error-code>
+    <location>/WEB-INF/pages/error.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>400</error-code>
+    <location>/WEB-INF/pages/error.jsp</location>
+  </error-page>
+  <error-page>
+    <exception-type>javax.servlet.ServletException</exception-type>
+    <location>/WEB-INF/pages/error.jsp</location>
+  </error-page>
+  <error-page>
+    <exception-type>java.io.IOException</exception-type>
+    <location>/WEB-INF/pages/error.jsp</location>
+  </error-page>
+  <error-page>
+    <exception-type>com.epam.chat.exception.DatabaseOperationException</exception-type>
+    <location>/WEB-INF/pages/error.jsp</location>
+  </error-page>
+  <error-page>
+    <exception-type>com.epam.chat.exception.InvalidArgumentException</exception-type>
+    <location>/WEB-INF/pages/error.jsp</location>
+  </error-page>
+  <error-page>
+    <exception-type>com.epam.chat.exception.StatusException</exception-type>
+    <location>/WEB-INF/pages/error.jsp</location>
+  </error-page>
+  <error-page>
+    <exception-type>com.epam.chat.exception.NullValueResourceException</exception-type>
+    <location>/WEB-INF/pages/error.jsp</location>
+  </error-page>
+</web-app>

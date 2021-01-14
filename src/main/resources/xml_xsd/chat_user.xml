@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Users xmlns="http://www.user.com/">
+    <User>
+        <ID>0</ID>
+        <nick>System user</nick>
+        <Role>
+            <title>SYSTEM</title>
+            <description>Administrator role</description>
+        </Role>
+        <Status>
+            <title>OFFLINE</title>
+        </Status>
+    </User>
+    <User>
+        <ID>1</ID>
+        <nick>lanimagajy</nick>
+        <Role>
+            <title>ADMIN</title>
+            <description>Administrator role</description>
+        </Role>
+        <Status>
+            <title>ONLINE</title>
+        </Status>
+    </User>
+    <User>
+        <ID>2</ID>
+        <nick>Funicular</nick>
+        <Role>
+            <title>USER</title>
+            <description>User role</description>
+        </Role>
+        <Status>
+            <title>ONLINE</title>
+        </Status>
+    </User>
+    <User>
+        <ID>3</ID>
+        <nick>Obama</nick>
+        <Role>
+            <title>USER</title>
+            <description>User role</description>
+        </Role>
+        <Status>
+            <title>KICKED</title>
+        </Status>
+    </User>
+
+    <User>
+        <ID>4</ID>
+        <nick>lanimagajy@epam.com</nick>
+        <Role>
+            <title>ADMIN</title>
+            <description>Administrator role</description>
+        </Role>
+        <Status>
+            <title>OFFLINE</title>
+        </Status>
+    </User>
+    <User>
+        <ID>5</ID>
+        <nick>lani</nick>
+        <Role>
+            <title>USER</title>
+            <description>User role</description>
+        </Role>
+        <Status>
+            <title>ONLINE</title>
+        </Status>
+    </User>
+</Users>

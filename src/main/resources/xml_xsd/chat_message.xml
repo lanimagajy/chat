@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Messages xmlns="http://message.com/">
+    <Message>
+        <ID>1</ID>
+        <UserID>1</UserID>
+        <timeStamp>2002-05-30T09:00:00</timeStamp>
+        <message>Nice</message>
+    </Message>
+    <Message>
+        <ID>2</ID>
+        <UserID>2</UserID>
+        <timeStamp>2002-05-30T09:00:01</timeStamp>
+        <message>Goooo</message>
+    </Message>
+    <Message>
+        <ID>3</ID>
+        <UserID>3</UserID>
+        <timeStamp>2002-05-30T09:00:02</timeStamp>
+        <message>AGAGAGA</message>
+    </Message>
+
+    <Message>
+        <ID>4</ID>
+        <UserID>0</UserID>
+        <timeStamp>2020-11-28T19:49:26</timeStamp>
+        <message>lanimagajy@epam.com now is Status{ONLINE}</message>
+    </Message>
+    <Message>
+        <ID>5</ID>
+        <UserID>0</UserID>
+        <timeStamp>2020-11-28T19:49:27</timeStamp>
+        <message>lani now is Status{ONLINE}</message>
+    </Message>
+    <Message>
+        <ID>6</ID>
+        <UserID>0</UserID>
+        <timeStamp>2020-11-28T19:49:27</timeStamp>
+        <message>lanimagajy@epam.com: lani now is Status{KICKED}</message>
+    </Message>
+    <Message>
+        <ID>7</ID>
+        <UserID>0</UserID>
+        <timeStamp>2020-11-28T19:49:27</timeStamp>
+        <message>lanimagajy@epam.com: lani now is Status{OFFLINE}</message>
+    </Message>
+    <Message>
+        <ID>8</ID>
+        <UserID>0</UserID>
+        <timeStamp>2020-11-28T19:49:27</timeStamp>
+        <message>lani now is Status{ONLINE}</message>
+    </Message>
+    <Message>
+        <ID>9</ID>
+        <UserID>0</UserID>
+        <timeStamp>2020-11-28T19:49:27</timeStamp>
+        <message>lanimagajy@epam.com now is Status{OFFLINE}</message>
+    </Message>
+    <Message>
+        <ID>10</ID>
+        <UserID>0</UserID>
+        <timeStamp>2020-11-28T19:49:27</timeStamp>
+        <message>Obama now is Status{ONLINE}</message>
+    </Message>
+    <Message>
+        <ID>11</ID>
+        <UserID>0</UserID>
+        <timeStamp>2020-11-28T19:49:27</timeStamp>
+        <message>lanimagajy@epam.com: Obama now is Status{KICKED}</message>
+    </Message>
+    <Message>
+        <ID>12</ID>
+        <UserID>1</UserID>
+        <timeStamp>2020-11-28T19:49:27</timeStamp>
+        <message>Yellowstone</message>
+    </Message>
+    <Message>
+        <ID>13</ID>
+        <UserID>0</UserID>
+        <timeStamp>2020-11-28T19:49:27</timeStamp>
+        <message>lani now is Status{ONLINE}</message>
+    </Message>
+    <Message>
+        <ID>14</ID>
+        <UserID>0</UserID>
+        <timeStamp>2020-11-28T19:50:55</timeStamp>
+        <message>lanimagajy@epam.com now is Status{ONLINE}</message>
+    </Message>
+    <Message>
+        <ID>15</ID>
+        <UserID>0</UserID>
+        <timeStamp>2020-11-28T19:50:55</timeStamp>
+        <message>lani now is Status{ONLINE}</message>
+    </Message>
+    <Message>
+        <ID>16</ID>
+        <UserID>0</UserID>
+        <timeStamp>2020-11-28T19:50:55</timeStamp>
+        <message>lanimagajy@epam.com: lani now is Status{KICKED}</message>
+    </Message>
+    <Message>
+        <ID>17</ID>
+        <UserID>0</UserID>
+        <timeStamp>2020-11-28T19:50:55</timeStamp>
+        <message>lanimagajy@epam.com: lani now is Status{OFFLINE}</message>
+    </Message>
+    <Message>
+        <ID>18</ID>
+        <UserID>0</UserID>
+        <timeStamp>2020-11-28T19:50:55</timeStamp>
+        <message>lani now is Status{ONLINE}</message>
+    </Message>
+    <Message>
+        <ID>19</ID>
+        <UserID>0</UserID>
+        <timeStamp>2020-11-28T19:50:55</timeStamp>
+        <message>lanimagajy@epam.com now is Status{OFFLINE}</message>
+    </Message>
+    <Message>
+        <ID>20</ID>
+        <UserID>0</UserID>
+        <timeStamp>2020-11-28T19:50:55</timeStamp>
+        <message>Obama now is Status{ONLINE}</message>
+    </Message>
+    <Message>
+        <ID>21</ID>
+        <UserID>0</UserID>
+        <timeStamp>2020-11-28T19:50:55</timeStamp>
+        <message>lanimagajy@epam.com: Obama now is Status{KICKED}</message>
+    </Message>
+    <Message>
+        <ID>22</ID>
+        <UserID>1</UserID>
+        <timeStamp>2020-11-28T19:50:55</timeStamp>
+        <message>Yellowstone</message>
+    </Message>
+    <Message>
+        <ID>23</ID>
+        <UserID>0</UserID>
+        <timeStamp>2020-11-28T19:50:55</timeStamp>
+        <message>lani now is Status{ONLINE}</message>
+    </Message>
+<Message><ID>24</ID><UserID>0</UserID><timeStamp>2020-11-28T19:52:55</timeStamp><message>lanimagajy@epam.com now is Status{ONLINE}</message></Message><Message><ID>25</ID><UserID>0</UserID><timeStamp>2020-11-28T19:52:55</timeStamp><message>lani now is Status{ONLINE}</message></Message><Message><ID>26</ID><UserID>0</UserID><timeStamp>2020-11-28T19:52:55</timeStamp><message>lanimagajy@epam.com: lani now is Status{KICKED}</message></Message><Message><ID>27</ID><UserID>0</UserID><timeStamp>2020-11-28T19:52:55</timeStamp><message>lanimagajy@epam.com: lani now is Status{OFFLINE}</message></Message><Message><ID>28</ID><UserID>0</UserID><timeStamp>2020-11-28T19:52:56</timeStamp><message>lani now is Status{ONLINE}</message></Message><Message><ID>29</ID><UserID>0</UserID><timeStamp>2020-11-28T19:52:56</timeStamp><message>lanimagajy@epam.com now is Status{OFFLINE}</message></Message><Message><ID>30</ID><UserID>0</UserID><timeStamp>2020-11-28T19:53:12</timeStamp><message>lanimagajy@epam.com now is Status{ONLINE}</message></Message><Message><ID>31</ID><UserID>0</UserID><timeStamp>2020-11-28T19:53:12</timeStamp><message>lani now is Status{ONLINE}</message></Message><Message><ID>32</ID><UserID>0</UserID><timeStamp>2020-11-28T19:53:12</timeStamp><message>lanimagajy@epam.com: lani now is Status{KICKED}</message></Message><Message><ID>33</ID><UserID>0</UserID><timeStamp>2020-11-28T19:53:12</timeStamp><message>lanimagajy@epam.com: lani now is Status{OFFLINE}</message></Message><Message><ID>34</ID><UserID>0</UserID><timeStamp>2020-11-28T19:53:12</timeStamp><message>lani now is Status{ONLINE}</message></Message><Message><ID>35</ID><UserID>0</UserID><timeStamp>2020-11-28T19:53:12</timeStamp><message>lanimagajy@epam.com now is Status{OFFLINE}</message></Message><Message><ID>36</ID><UserID>0</UserID><timeStamp>2020-11-28T19:53:12</timeStamp><message>Obama now is Status{ONLINE}</message></Message><Message><ID>37</ID><UserID>0</UserID><timeStamp>2020-11-28T19:53:12</timeStamp><message>lanimagajy@epam.com: Obama now is Status{KICKED}</message></Message><Message><ID>38</ID><UserID>1</UserID><timeStamp>2020-11-28T19:53:12</timeStamp><message>Yellowstone</message></Message><Message><ID>39</ID><UserID>0</UserID><timeStamp>2020-11-28T19:53:12</timeStamp><message>lani now is Status{ONLINE}</message></Message></Messages>
